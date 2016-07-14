@@ -9,8 +9,8 @@ import logging
 import signal
 import sys
 
-optionA = "Hub"
-optionB = "Cloud"
+optionA = "Docker Hub"
+optionB = "Docker Cloud"
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
